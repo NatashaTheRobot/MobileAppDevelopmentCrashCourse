@@ -20,7 +20,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" id="HmB-hs-6JW">
+                                    <view contentMode="scaleAspectFit" id="HmB-hs-6JW">
                                         <rect key="frame" x="20" y="210" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
@@ -29,11 +29,12 @@
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Natasha Murashev" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rFi-dk-xPi">
                                         <rect key="frame" x="128" y="210" width="148" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -79,7 +80,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qn8-nW-s7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1766" y="-981"/>
+            <point key="canvasLocation" x="-338" y="-933"/>
         </scene>
         <!--Social Links Table View Controller - Social Links-->
         <scene sceneID="fcb-b0-kJ6">
@@ -127,7 +128,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AqH-fh-BPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2270" y="-618"/>
+            <point key="canvasLocation" x="166" y="-570"/>
         </scene>
         <!--Social Links Web View Controller-->
         <scene sceneID="hJt-Pm-99D">
@@ -152,7 +153,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdS-Yi-hem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2675" y="-228"/>
+            <point key="canvasLocation" x="649" y="-570"/>
         </scene>
         <!--Navigation Controller - Social Links-->
         <scene sceneID="FaT-E0-V9W">
@@ -169,7 +170,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ao2-Lf-2SN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="-227"/>
+            <point key="canvasLocation" x="-348" y="-179"/>
         </scene>
         <!--Navigation Controller - Contact Me-->
         <scene sceneID="u2h-hg-ENr">
@@ -185,7 +186,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1d-FE-8dk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="440"/>
+            <point key="canvasLocation" x="-348" y="488"/>
         </scene>
         <!--Contact Me View Controller - Contact Me-->
         <scene sceneID="B9x-tL-szY">
@@ -237,7 +238,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VB9-0R-i8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2270" y="85"/>
+            <point key="canvasLocation" x="166" y="133"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5hd-nB-Nft">
@@ -257,7 +258,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hE-zD-Onb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1218" y="-227"/>
+            <point key="canvasLocation" x="-886" y="-179"/>
         </scene>
     </scenes>
     <resources>
