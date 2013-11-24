@@ -9,6 +9,7 @@
 #import "ProjectsCollectionViewController.h"
 #import "Project.h"
 #import "ProjectCollectionViewCell.h"
+#import "ProjectDetailsViewController.h"
 
 @interface ProjectsCollectionViewController ()
 
@@ -24,6 +25,16 @@
 	
     [self setupProjects];
     
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ProjectDetailsViewController *projectDetailsViewController = segue.destinationViewController;
+    
+    NSIndexPath *indexPathForSelectedCell = [self.collectionView indexPathsForSelectedItems][0];
+    Project *selectedProject = self.projects[indexPathForSelectedCell.row];
+    
+    projectDetailsViewController.project = selectedProject;
 }
 
 #pragma mark - Collection View Data Source Methods
@@ -68,7 +79,7 @@
     alphavit.title = @"Alphavit";
     alphavit.url = [NSURL URLWithString:@"https://itunes.apple.com/us/app/alphavit/id668011464?mt=8"];
     alphavit.smallImage = [UIImage imageNamed:@"alphavitSmall"];
-    alphavit.largeImage = [UIImage imageNamed:@"alpahvitLarge"];
+    alphavit.largeImage = [UIImage imageNamed:@"alphavitLarge"];
     alphavit.description = @"From our family to yours, Alphavit makes it fun to learn the Russian Alphabet. Each letter was hand-drawn by my little sister, who also recorded each word with my mother's help.";
     
     [self.projects addObject:alphavit];

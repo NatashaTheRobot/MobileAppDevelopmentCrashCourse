@@ -243,6 +243,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                                 <connections>
                                     <outlet property="imageView" destination="LPy-13-pNH" id="Ohw-rH-Tbq"/>
                                     <outlet property="label" destination="fDv-XK-tS7" id="1Hu-mL-o6m"/>
+                                    <segue destination="Ujd-h0-vSy" kind="push" id="jUB-Dw-Spv"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -256,6 +257,70 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H0z-c9-vaj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="148" y="1212"/>
+        </scene>
+        <!--Project Details View Controller-->
+        <scene sceneID="yVr-RL-FId">
+            <objects>
+                <viewController id="Ujd-h0-vSy" customClass="ProjectDetailsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Goh-ZZ-1h8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopLaterLarge" id="Lav-IP-tzf">
+                                <rect key="frame" x="0.0" y="64" width="320" height="240"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="vru-Ux-K1G">
+                                <rect key="frame" x="20" y="312" width="280" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KGU-vy-Kis">
+                        <barButtonItem key="rightBarButtonItem" title="View" style="done" id="S1T-sT-Dzn">
+                            <connections>
+                                <segue destination="mtq-IG-SsW" kind="push" id="x3p-RM-CYj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="Lav-IP-tzf" id="rap-X4-JiZ"/>
+                        <outlet property="textView" destination="vru-Ux-K1G" id="iMv-AP-4Eo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnv-jk-5qO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="517" y="1212"/>
+        </scene>
+        <!--Project Web View Controller-->
+        <scene sceneID="0Ba-zj-ypF">
+            <objects>
+                <viewController id="mtq-IG-SsW" customClass="ProjectWebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Moh-WV-oFS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="ult-Ag-PaM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d81-lG-sAf"/>
+                    <connections>
+                        <outlet property="webView" destination="ult-Ag-PaM" id="vMC-Q6-dkb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRm-8z-SfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925" y="1212"/>
         </scene>
         <!--Contact Me View Controller - Contact Me-->
         <scene sceneID="B9x-tL-szY">
@@ -338,6 +403,7 @@ Natasha currently has three apps in the Apple’s app store - ShopLater, Alphavi
         <image name="profileFemale" width="25" height="25"/>
         <image name="profilePhoto" width="90" height="90"/>
         <image name="projectsIcon" width="25" height="25"/>
+        <image name="shopLaterLarge" width="320" height="240"/>
         <image name="shopLaterSmall" width="145" height="145"/>
         <image name="socialLinks" width="25" height="25"/>
     </resources>

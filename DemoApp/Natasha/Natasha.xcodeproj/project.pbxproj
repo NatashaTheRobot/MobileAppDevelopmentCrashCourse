@@ -37,6 +37,8 @@
 		9C985CF618423CE5001AEAF4 /* ProjectsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C985CF518423CE5001AEAF4 /* ProjectsCollectionViewController.m */; };
 		9C985CFA18423E9C001AEAF4 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C985CF918423E9C001AEAF4 /* Project.m */; };
 		9C985D0518425C65001AEAF4 /* ProjectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C985D0418425C65001AEAF4 /* ProjectCollectionViewCell.m */; };
+		9C985D08184269A9001AEAF4 /* ProjectDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C985D07184269A9001AEAF4 /* ProjectDetailsViewController.m */; };
+		9C985D0B18426B45001AEAF4 /* ProjectWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C985D0A18426B45001AEAF4 /* ProjectWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,10 @@
 		9C985CF918423E9C001AEAF4 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
 		9C985D0318425C65001AEAF4 /* ProjectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectCollectionViewCell.h; sourceTree = "<group>"; };
 		9C985D0418425C65001AEAF4 /* ProjectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectCollectionViewCell.m; sourceTree = "<group>"; };
+		9C985D06184269A9001AEAF4 /* ProjectDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDetailsViewController.h; sourceTree = "<group>"; };
+		9C985D07184269A9001AEAF4 /* ProjectDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDetailsViewController.m; sourceTree = "<group>"; };
+		9C985D0918426B45001AEAF4 /* ProjectWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectWebViewController.h; sourceTree = "<group>"; };
+		9C985D0A18426B45001AEAF4 /* ProjectWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +222,10 @@
 				9C985CD0183E5F9B001AEAF4 /* ContactMeViewController.m */,
 				9C985CF418423CE5001AEAF4 /* ProjectsCollectionViewController.h */,
 				9C985CF518423CE5001AEAF4 /* ProjectsCollectionViewController.m */,
+				9C985D06184269A9001AEAF4 /* ProjectDetailsViewController.h */,
+				9C985D07184269A9001AEAF4 /* ProjectDetailsViewController.m */,
+				9C985D0918426B45001AEAF4 /* ProjectWebViewController.h */,
+				9C985D0A18426B45001AEAF4 /* ProjectWebViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -385,12 +395,14 @@
 				9C985CCB183BAEF6001AEAF4 /* SocialLinksTableViewController.m in Sources */,
 				9C985CFA18423E9C001AEAF4 /* Project.m in Sources */,
 				9C985CA118393B75001AEAF4 /* AppDelegate.m in Sources */,
+				9C985D08184269A9001AEAF4 /* ProjectDetailsViewController.m in Sources */,
 				9C985CEA183E6D2A001AEAF4 /* AFNetworkReachabilityManager.m in Sources */,
 				9C985CC818399DDD001AEAF4 /* AboutMeViewController.m in Sources */,
 				9C985CF3183E6D3C001AEAF4 /* sendgrid.m in Sources */,
 				9C985CEC183E6D2A001AEAF4 /* AFURLConnectionOperation.m in Sources */,
 				9C985CE9183E6D2A001AEAF4 /* AFHTTPSessionManager.m in Sources */,
 				9C985CED183E6D2A001AEAF4 /* AFURLRequestSerialization.m in Sources */,
+				9C985D0B18426B45001AEAF4 /* ProjectWebViewController.m in Sources */,
 				9C985CD1183E5F9B001AEAF4 /* ContactMeViewController.m in Sources */,
 				9C985CCE183CF882001AEAF4 /* SocialLinksWebViewController.m in Sources */,
 				9C985C9D18393B75001AEAF4 /* main.m in Sources */,
