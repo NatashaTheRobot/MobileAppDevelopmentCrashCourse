@@ -31,4 +31,9 @@
     self.imageContainerView.layer.borderColor = [UIColor groupTableViewBackgroundColor].CGColor;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
 @end

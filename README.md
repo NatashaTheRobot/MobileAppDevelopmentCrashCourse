@@ -29,3 +29,6 @@ RESOURCES
 * [Stanford CS193P iPhone Application Development](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550)
 * [WWDC Videos](https://developer.apple.com/wwdc/videos/)
 * [Mobile Makers Academy](http://mobilemakers.co/)
+* [CocoaPods](http://cocoapods.org/)
+* [Cocoa Controls](https://www.cocoacontrols.com/controls)
+* [Essence Icons](http://iconsandcoffee.com/essence/) - icons used in class
