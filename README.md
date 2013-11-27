@@ -32,3 +32,4 @@ RESOURCES
 * [CocoaPods](http://cocoapods.org/)
 * [Cocoa Controls](https://www.cocoacontrols.com/controls)
 * [Essence Icons](http://iconsandcoffee.com/essence/) - icons used in class
+* [Parse](https://parse.com/) - very easy integration with a database back-end system
