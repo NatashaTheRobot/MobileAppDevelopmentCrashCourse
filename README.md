@@ -28,7 +28,9 @@ RESOURCES
 * [Lynda.com iOS Training Tutorials](http://www.lynda.com/iOS-training-tutorials/413-0.html)
 * [Stanford CS193P iPhone Application Development](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550)
 * [WWDC Videos](https://developer.apple.com/wwdc/videos/)
+* [CodeSchool iOS Path](https://www.codeschool.com/paths/ios)
 * [Mobile Makers Academy](http://mobilemakers.co/)
+* [Flatiron iOS Bootcamp](http://flatironschool.com/iOScurriculum.html)
 * [CocoaPods](http://cocoapods.org/)
 * [Cocoa Controls](https://www.cocoacontrols.com/controls)
 * [Essence Icons](http://iconsandcoffee.com/essence/) - icons used in class
